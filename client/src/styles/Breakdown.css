@@ -1,0 +1,29 @@
+.breakdown-container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #64b5f6 ;
+    padding: 10px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.minus{
+    color: #f44336;
+}
+
+.pos{
+    color: #43a047 ;
+}
+
+.data{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #e3f2fd ;
+    margin: 10px;
+    padding: 10px;
+}
+
+.data span{
+    font-size: 20px;
+    font-weight: bold;
+}
